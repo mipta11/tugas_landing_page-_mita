@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio Miftachul Khoyriyatus Safitri</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+      }
+
+      header .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      header h1 {
+        margin: 0;
+      }
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+      }
+
+      nav ul li {
+        margin-left: 20px;
+      }
+
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      section {
+        margin-bottom: 40px;
+      }
+
+      h2 {
+        border-bottom: 2px solid #333;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+      }
+
+      .portfolio-item {
+        margin-bottom: 20px;
+      }
+
+      .portfolio-item img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      form label {
+        margin: 10px 0 5px;
+      }
+
+      form input,
+      form textarea {
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ddd;
+      }
+
+      form button {
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+      }
+
+      .social-media a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Miftachul Khoyriyatus Safitri</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">Tentang</a></li>
+            <li><a href="#portfolio">Portofolio</a></li>
+            <li><a href="#contact">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="about">
+        <div class="container">
+          <h2>Ini saya</h2>
+          <p>
+            Halo, saya Miftachul Khoyriyatus Safitri. saya seorang pelajar di
+            smk krian1. kelas XII RPL 3 . saya sedang belajar berdamai dengan
+            keadaan yang begitu rumit.
+          </p>
+        </div>
+      </section>
+
+      <section id="portfolio">
+        <div class="container">
+          <h2>Self healing</h2>
+          <div class="portfolio-item">
+            <img src="foto 1.jpeg" alt="Proyek 1" />
+            <h3>Foto 1</h3>
+            <p>Aku kamu dan cangar waktu itu .</p>
+          </div>
+          <div class="portfolio-item">
+            <img src="foto 2.jpeg" alt="Proyek 2" />
+            <h3>2</h3>
+            <p>
+              Ada yang lebih indah dari pemandangan di belakangku, mungkin itu
+              kamu.
+            </p>
+          </div>
+          <!-- Tambahkan lebih banyak item portofolio sesuai kebutuhan -->
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container">
+          <h2>Kontak</h2>
+          <form action="submit_form.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim Pesan</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2024 Miftachul Khoyriyatus Safitri. Semua hak cipta dilindungi.
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/username" target="_blank"
+            >LinkedIn</a
+          >
+          <a href="https://twitter.com/username" target="_blank">Twitter</a>
+          <a href="https://www.github.com/username" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
